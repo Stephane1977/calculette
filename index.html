@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Entrainement 4</title>
+        <!-- CSS Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+
+        <!-- JS -->
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <body bgcolor= "#000000" text= "gold">
+            <form name="calculette" >
+            <div class ="123">
+
+            <input type="button" value="1" onClick="document.calculette.result.value+='1'">
+            <input type="button" value="2" onClick="document.calculette.result.value+='2'">
+            <input type="button" value="3" onClick="document.calculette.result.value+='3'">
+
+           </div>
+
+           <div class ="456">
+            
+            <input type="button" value="4" onClick="document.calculette.result.value+='4'">
+            <input type="button" value="5" onClick="document.calculette.result.value+='5'">
+            <input type="button" value="6" onClick="document.calculette.result.value+='6'">
+           
+            </div>
+
+            <div class="789">
+
+            <input type="button" value="7" onClick="document.calculette.result.value+='7'">
+            <input type="button" value="8" onClick="document.calculette.result.value+='8'">
+            <input type="button" value="9" onClick="document.calculette.result.value+='9'">
+           
+            </div>
+
+            <div class="0">
+
+            <input type="button" value="0" onClick="document.calculette.result.value+='0'">
+
+            </div>
+
+            <div class="=">
+
+                <input type="button" value="=" onClick="document.calculette.result.value+='='">
+    
+                </div>
+            
+            <div class="opération">
+
+            <input type="button" value="+" onClick="document.calculette.result.value+='+'">
+            <input type="button" value="-" onClick="document.calculette.result.value+='-'">
+            <input type="button" value="*" onClick="document.calculette.result.value+='*'">
+            <input type="button" value="/" onClick="document.calculette.result.value+='/'">
+            
+            <input type="reset" value="Réinitialiser">
+            </div>
+
+            <div class="reinit>
+
+            <input type="button" value="=" onClick="document. calculette.result.value=eval(document.calculette.result.value)">
+            
+            </div>
+           
+            <br>Le résultat est <input id="result" name="result" value="">
+          <form>
+    </bod
+</html>
